@@ -1,0 +1,104 @@
+
+.hoverclass:hover button{display: block;}.container {
+  display: grid;
+  //padding: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 500px));
+  grid-gap: 20px;
+  place-content: top  ;
+  
+ // margin-top: 5px;
+  
+ & > * {
+    
+    border-radius: 10px;
+   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  } 
+}  
+ 
+ #status {
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  color: black;
+  font-weight: 300;
+}
+
+
+.nav-link.active,
+.show>.nav-link {
+  color: rgba(0, 0, 0, .9);
+}
+
+.nav-link {
+  color: rgba(0, 0, 0, .55);
+}
+
+.nav-link:focus,
+.nav-link:hover {
+  color: rgba(0, 0, 0, .7);
+}
+
+#nav-tabContent {
+  box-sizing: border-box;
+  padding-top: 1rem;
+}
+
+.highcharts-exporting-group {
+  display: none;
+}
+
+
+
+
+
+#popupContent {
+  max-height: 500px;
+  overflow: auto;
+}
+
+.border-right {
+  border-right: 1px solid;
+}
+
+.highcharts-credits {
+  display: none;
+}
+
+
+
+
+#table_oneData td:nth-child(odd) {
+  color: #7cb5ec;
+}
+
+#table_oneData td:nth-child(even) {
+  color: #434348;
+}
+ 
+/* #js-range-slide {
+  width: 100% !important;
+} 
+
+.highcharts-color-0 {
+  fill: #f45b5b;
+  stroke: #f45b5b;
+}
+ 
+/* Titles */
+/*.highcharts-title {
+  fill: black;
+  font-size: 26px;
+  font-weight: bold;
+}
+ .highcharts-loading {
+    background: silver;
+  }
+  .highcharts-loading-inner {
+    color: blue;
+  }
+  .highcharts-background {
+    fill: #223;
+  }
+  .highcharts-container {
+    font-family: "Lato", sans-serif;
+  }  */

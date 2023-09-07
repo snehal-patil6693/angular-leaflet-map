@@ -1,0 +1,51 @@
+<div id ="app-chart" class="chart"></div>
+ <div class="col-15 h-100 bg-light text-center" id="div_top_right">
+  <nav>
+      <div class="nav nav-tabs" role="tablist">
+          <button class="rightChartTabs nav-link py-0 px-1 active" id="nav-link_nav-units" data-bs-toggle="tab" data-bs-target="#nav-units" type="button" role="tab">Units</button>
+          <button class="rightChartTabs nav-link py-0 px-1" id="nav-link_nav-airfields" data-bs-toggle="tab" data-bs-target="#nav-airfields" type="button" role="tab">Airfields</button>
+          <button class="rightChartTabs nav-link py-0 px-1 " id="nav-link_nav-aircrafts" data-bs-toggle="tab" data-bs-target="#nav-aircrafts" type="button" role="tab">Aircrafts</button>
+
+      </div>
+  </nav>
+  <div class="tab-content">
+      <div class="tab-pane fade show active" id="nav-units" role="tabpanel">
+          <div class="div_rightcharts">
+            <div class="container"  style="min-height: 340px;">
+              <a type="button" class="btn position-absolute end-0 a_MaxMin" data-bs-toggle="tooltip" title="Toggle View"><i class="bi bi-fullscreen i_MaxMin"></i></a>
+              
+              <div class="bar" [chart]="barChart"></div>
+            </div>
+          </div>
+      </div>
+      <div class="tab-pane fade" id="nav-airfields" role="tabpanel">
+          <div class="div_rightcharts">
+            <div class="container"  style="min-height: 340px;">
+              <a type="button" class="btn position-absolute end-0 a_MaxMin" data-bs-toggle="tooltip" title="Toggle View"><i class="bi bi-fullscreen i_MaxMin"></i></a>
+         
+              <div class="oneLineBar" [chart]="oneLineBar"></div>
+            </div>
+          </div>
+
+      </div>
+       <div class="tab-pane fade" id="nav-aircrafts" role="tabpanel">
+        <div class="div_rightcharts">
+          <div class="container"  style="min-height: 340px;">
+            <a type="button" class="btn position-absolute end-0 a_MaxMin" data-bs-toggle="tooltip" title="Toggle View"><i class="bi bi-fullscreen i_MaxMin"></i></a>
+         
+                          
+                                            </div>
+                                            </div>
+       </div>
+  </div>
+
+
+
+
+</div>
+
+   
+   
+
+
+ 

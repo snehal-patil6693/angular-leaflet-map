@@ -1,0 +1,5 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="aeroDonut" width="22" height="22" viewBox="0 0 22 22">' +
+                    '<circle class="donut-hole" cx="11" cy="11" r="8" fill="#FFF" fill-opacity="0.25"></circle>' +
+                    '<circle id="donut-segment2" cx="11" cy="11" r="8" fill="transparent" stroke="#434348" stroke-width="5" stroke-dashoffset="' + strokeDashoffset2 + '" stroke-dasharray="' + strokeDasharray2 + '"></circle>' +
+                    '<circle id="donut-segment1" cx="11" cy="11" r="8" fill="transparent" stroke="#7cb5ec" stroke-width="5" stroke-dashoffset="' + strokeDashoffset1 + '" stroke-dasharray="' + strokeDasharray1 + '"></circle>' +
+                    '</svg>
